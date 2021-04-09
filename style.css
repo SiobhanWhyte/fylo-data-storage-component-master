@@ -1,17 +1,179 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-body {
-    background-color: hsl(229, 57%, 11%);
-	background-image: url("./images/bg-desktop.png");
-	background-repeat:no-repeat;
-background-attachment:fixed;
-background-position: center bottom;
-background-size:100% 50%;
-}
+
+*{
+    box-sizing:border-box;
+    }
+    
+    body{
+        background-color: hsl(229, 57%, 11%);
+        background-image: url("bg-desktop.png");
+        background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center bottom;
+    background-size:100% 50%;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    .edge{
+        width:400px;
+        height:200px;
+        background-color: hsl(228, 56%, 26%);
+    
+    position:absolute;
+    bottom:40%;
+    left:21%;
+    border-radius:10px;
+    border-top-right-radius:110px;
+    }
+    
+    .load{
+        width:600px;
+        height:160px;
+        background-color: hsl(228, 56%, 26%);
+        position:absolute;
+        bottom:40%;
+    border-radius:10px;
+    left: 45%;
+    
+    }
+    .bubble{
+        
+        width:200px;
+        height:70px;
+        
+        background-color:white;
+    border-radius:10px;
+    
+    position:absolute;
+    bottom:83%;
+    left:60%;
+    
+    
+    }
+    .sturis{
+        background-color:white;
+        height:50px;
+        width:50px;
+        position:absolute;
+    bottom: 61.5%;
+    left: 85%;
+          clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
+    }
+    
+    
+    .logo{
+        position:absolute;
+    top:20%;
+    left:15%;
+    width:40%;}
+    
+    .icons{
+        position:absolute;
+        top:50%;
+        left:15%;
+        margin-top:15px;
+    }
+    .icon{
+        border-radius:10px;
+    margin-right:10px;
+    background-color:  hsl(229, 57%, 11%);}
+    
+    #one{
+    padding:10px 15px 10px 15px;}
+    #two{
+    padding:12px;}
+    #three{
+    padding:14px 12px 14px 12px;}
+    
+    
+    .gb{
+        position:relative;
+        left:10px;
+        
+        font-size: 58px;
+          
+            font-weight:700;
+            
+    }
+    #text{
+        
+        position: relative;
+        bottom:10px;
+        padding-left:20px;
+    font-size:14px;
+    font-weight:700;
+    
+    color: hsl(229, 7%, 55%);}
+    
+    p{
+        position:relative;
+        
+        color: hsl(243, 100%, 93%);
+        font-weight:400;
+    font-size: 14px;
+    left:35px;
+        top:45px;
+    }
+    .line{
+        width:88%;
+        height:14px;
+        border-radius:10px;
+        background-color:  hsl(229, 57%, 18%);
+        margin-top:20px;
+        position:relative;
+        left:35px;
+        top:50px;
+        padding:1px;
+        
+    }
+    .gradient{
+        width:70%;
+        height:12px;
+    
+        border-radius:10px;
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    }
+    #circle{
+        height:11px;
+        width:11px;
+        margin-right:2px;
+        margin-top:1px;
+        border-radius:5px;
+        background-color:white;
+        float:right;
+    }
+    .line span{
+        
+        font-weight:700;
+        position:relative;
+        color: hsl(243, 100%, 93%);
+        font-size:13px;
+        top:10px;
+    }
+        
+        
+        @media (max-width:1450px){
+        .load{
+        
+        left:45%;}
+        .edge{
+            height:200px;
+            width:350px;
+        left:15%;}
+        .bubble{
+            
+            position:absolute;
+            height:70px;
+        }
+    
+        body{
+        height:100vh;}
+        
+    
+    
+    
+    }
 
 
 
