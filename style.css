@@ -175,8 +175,292 @@
     
     }
 
-
-
-
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width:1450px){
+        .load{
+        
+        left:45%;}
+        .edge{
+            height:200px;
+            width:350px;
+        left:15%;}
+        .bubble{
+            
+            position:absolute;
+            height:70px;
+        }
+    
+        body{
+        height:100vh;}
+        
+    
+    
+    
+    }
+    @media(max-width:900px){
+    body{
+            display:flex;
+            flex-direction:column;
+            background-image: url("bg-mobile.png");
+            background-position: initial;
+            background-size:cover;
+            justify-content:center;
+            
+        }
+    
+        .load{
+            position: initial;
+            width:85%;
+            margin-left:auto;
+        margin-right:auto;
+            height:180px;
+            
+        }
+        .edge{
+            width:85%;
+            height:200px;
+            position:initial;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:20px;
+        }
+        .bubble{
+            height:60px;
+            position:initial;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:85px;
+            text-align:center;
+        }
+        .sturis{
+        visibility:hidden;}
+        
+        
+        
+    .icons{
+        
+        display:inline-block;
+        padding-left:45px;
+        top:45%;
+    }
+    .logo{
+        position:relative;
+    
+    width:40%;}
+    
+    .line{
+    width:75%;
+        
+    }
+    .gb{
+        
+        font-size: 3em;	 
+            
+    }
+        }
+    @media(max-width:799px){
+    
+        body{
+            display:flex;
+            flex-direction:column;
+            background-image: url("bg-mobile.png");
+            background-position: initial;
+            background-size:cover;
+            justify-content:center;
+            
+        }
+    
+        .load{
+            position: initial;
+            width:85%;
+            margin-left:auto;
+        margin-right:auto;
+            height:180px;
+            
+        }
+        .edge{
+            width:85%;
+            height:200px;
+            position:initial;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:20px;
+        }
+        .bubble{
+            height:60px;
+            position:initial;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:85px;
+            text-align:center;
+        }
+        .sturis{
+        visibility:hidden;}
+        
+        
+    .icons{
+        
+        display:inline-block;
+        padding-left:45px;
+        top:43%;
+    }
+    .logo{
+        position:relative;
+    
+    width:40%;}
+    
+    .line{
+    width:75%;
+        
+    }
+    .gb{
+        
+        font-size: 3em;	 
+            
+    }
+        }
+    
+        @media(max-width:700px){
+    
+        body{
+            display:flex;
+            flex-direction:column;
+            background-image: url("bg-mobile.png");
+            background-position: initial;
+            background-size:cover;
+            justify-content:center;
+            
+        }
+    
+        .load{
+            position: initial;
+            width:85%;
+            margin-left:auto;
+        margin-right:auto;
+            height:180px;
+            
+        }
+        .edge{
+            width:85%;
+            height:200px;
+            position:initial;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:20px;
+        }
+        .bubble{
+            
+            position:initial;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:85px;
+            text-align:center;
+        }
+        .sturis{
+        visibility:hidden;}
+        
+        
+    .icons{
+        
+        display:inline-block;
+        padding-left:45px;
+        top:42%;
+    }
+    .logo{
+        position:relative;
+    
+    width:40%;}
+    
+    .line{
+    width:75%;
+        
+    }
+    .gb{
+        
+        font-size: 3em;	 
+            
+    }
+        }
+    @media(max-width:590px){
+    
+        body{
+            display:flex;
+            flex-direction:column;
+            background-image: url("bg-mobile.png");
+            background-position: initial;
+            background-size:cover;
+            justify-content:center;
+            
+        }
+    
+        .load{
+            position: initial;
+            width:85%;
+            margin-left:auto;
+        margin-right:auto;
+            height:180px;
+            
+        }
+        .edge{
+            width:85%;
+            height:200px;
+            position:initial;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom:20px;
+        }
+        .bubble{
+            
+            position:initial;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:85px;
+            text-align:center;
+        }
+        .sturis{
+        visibility:hidden;}
+        
+        
+    .icons{
+        position:initial;
+        display:inline-block;
+        padding-left:45px;
+        padding-top:40px;
+    }
+    .logo{
+        position:relative;
+    
+    width:40%;}
+    
+    .line{
+    width:75%;
+        
+    }
+    .gb{
+        
+        font-size: 3em;	 
+            
+    }
+    
+    }	
+    
+    @media(max-width:340px){
+        
+    .gb{
+        
+    font-size: 2.5em;}
+    p {
+       
+        left: 20px;
+        
+    }	 
+    
+    .line {
+    width:82%;
+        left: 20px;
+       
+    }
+            
+    }
