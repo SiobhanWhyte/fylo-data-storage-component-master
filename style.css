@@ -16,7 +16,7 @@
     }
     
     .edge{
-        width:400px;
+        width:350px;
         height:200px;
         background-color: hsl(228, 56%, 26%);
     
@@ -29,12 +29,13 @@
     
     .load{
         width:600px;
-        height:160px;
+        height:150px;
         background-color: hsl(228, 56%, 26%);
         position:absolute;
         bottom:40%;
     border-radius:10px;
     left: 45%;
+    margin-left: 5px;
     
     }
     .bubble{
@@ -88,11 +89,9 @@
     
     
     .gb{
-        position:relative;
-        left:10px;
-        
-        font-size: 58px;
-          
+        position: relative;
+        left:30px;
+        font-size: 35px;
             font-weight:700;
             
     }
@@ -101,7 +100,7 @@
         position: relative;
         bottom:10px;
         padding-left:20px;
-    font-size:14px;
+    font-size:12px;
     font-weight:700;
     
     color: hsl(229, 7%, 55%);}
@@ -150,33 +149,8 @@
         color: hsl(243, 100%, 93%);
         font-size:13px;
         top:10px;
-    }
-        
-        
-        @media (max-width:1450px){
-        .load{
-        
-        left:45%;}
-        .edge{
-            height:200px;
-            width:350px;
-        left:15%;}
-        .bubble{
-            
-            position:absolute;
-            height:70px;
-        }
-    
-        body{
-        height:100vh;}
-        
-    
-    
-    
-    }
+    }       
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
 
     @media (max-width:1450px){
         .load{
